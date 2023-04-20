@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import numpy as np
 import pickle
 
-model = pickle.load(open('F:\\Test Software\\NLP 2.0\\.venv\\model.pkl','rb'))
+model = pickle.load(open('D:\\Test Software\\VirtualAssistant\\.venv\\model.pkl','rb'))
 app = Flask(__name__)
 
 @app.route('/')
